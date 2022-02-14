@@ -1,0 +1,75 @@
+#bestSales {
+    margin: 70px 0;
+    color:  #3E3E3E;
+}
+#bestSales .bold{
+    font-weight: bold;
+    margin-top: 10px
+}
+#bestSales h2{
+    margin-bottom: 30px;
+    position: relative;
+}
+#bestSales h2::before{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    top: -10px;
+    left: 0;
+    background-color: #5333ED;
+    border-radius: 2px
+}
+#bestSales .product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+#bestSales .card {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.18);
+    overflow: hidden;
+    text-align: center;
+    width: 250px;
+    padding: 15px ;
+    display: grid;
+    grid-template-rows: 1.5fr 0.5fr 0.5fr 0.5fr;
+}
+#bestSales .card img {
+    width: 200px;
+    max-height: 150px;
+    object-fit: contain;
+    margin-bottom: 5%;
+}
+#bestSales .card p {
+   color: #252525;
+   padding: 10px 20px
+}
+#bestSales .twoBtn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    justify-content: space-around;
+    margin-bottom: 10%;
+
+}
+#bestSales  .buy {
+    background-color: #5333ED ;
+    display: block;
+    padding: 10px 20px;
+    width: 90%;
+    margin: auto;
+}
+#bestSales a {
+    min-width: 40%;
+    color: white;
+    text-decoration: none;
+    padding: 5%;
+}
+#bestSales a:hover {
+    transform: scale(1.02) ;
+}
+#bestSales a:active {
+    transform: scale(0.9) ;
+}

@@ -1,0 +1,119 @@
+#users {
+    margin-top: 30px;
+   padding: 0 30px;
+}
+#users .box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: scroll;
+    margin-bottom: 30px
+}
+.table_head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.table_head a{
+  text-decoration: none;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #1DD795;
+  color: #fff;
+  font-size: 18px
+}
+#users .box .bare {
+    background-color: #EEEEEE;
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 2fr 1fr 1fr;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#users .box .bare p {
+    color: #5333ED;
+    justify-self: center;
+}
+#users .onePro {
+   display: grid;
+   grid-template-columns: 50px 1fr 1fr 2fr 1fr 1fr;
+   justify-content: center;
+   align-items: center;
+   border-bottom: 1px solid #ccc;
+   padding: 15px 0px;
+}
+.text-center{
+  text-align: center
+}
+.supprim{
+  padding-left: 15px;
+  color: #FC4141;
+  font-weight: bold;
+  text-decoration: none
+}
+#users .onePro img {
+    max-width: 150px;
+    justify-self: center;
+}
+#users .onePro h3,#users .onePro h2 {
+    font-size: medium;
+    justify-self: center;
+}
+#add_user{
+  margin: 30px 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding:50px 20px;
+}
+#add_user h1{
+  text-align: center;
+  margin-bottom: 20px
+}
+#add_user form{
+  width: 60%;
+  margin: 0 auto;
+}
+#add_user form input{
+	display:block;
+    width: 100%;
+    background-color: #ECECEC;
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+    outline: none;
+}
+#add_user form button{
+	display:inline-block;
+    background-color: #5333ED;
+    padding: 12px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+    min-width: 160px;
+    border-radius: 5px;
+}
+
+.alert{
+	width: 50%;
+	text-align: center;
+	margin: 30px auto 15px;
+	padding: 20px 10px;
+	border-radius: 5px
+}
+.danger{
+	background-color: #f8d7da;
+	color: #721c24
+}
+.success{
+	background-color: #d4edda;
+	color: #155724
+}

@@ -1,0 +1,87 @@
+#modifier {
+    width: 50%;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px
+}
+#modifier h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+.mod_from input {
+    margin-top: 10px;
+    border: none;
+    background-color: #ECECEC ;
+    padding: 15px;
+    outline: none;
+    font-size: 18px;
+    display: block;
+    width: 100%
+}
+.mod_from form .form_grp{
+  display: flex;
+  justify-content: space-between;
+}
+.mod_from form .input_grp > div{
+  width: 45%
+}
+.mod_from form label {
+    color: #606060;
+    margin-top: 40px;
+    display: block;
+}
+.mod_from form textarea {
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background-color: #ECECEC ;
+    height: 100px;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 17px
+}
+.mod_from form .btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.mod_from form .btn input {
+    border-radius: 5px;
+    color: #fff;
+    width: 150px;
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    transition: all .3s;
+    cursor: pointer
+}
+.mod_from form .btn .modi {
+    background-color: #1DD795 !important ;
+}
+.mod_from form .btn  .sup {
+    background-color: #FC4141 !important;
+}
+.hide {
+    opacity: 0;
+    display: none !important;
+}
+.mod_from form .btn .modi:hover {
+    transform: scale(1.05);
+}
+.mod_from form .btn .sup:hover {
+    transform: scale(1.05);
+}
+@media (max-width: 987.98px) {
+  #modifier {
+      width: 90%;
+  }
+}
+@media (max-width: 787.98px) {
+  .mod_from form .form_grp{
+    display: block;
+  }
+  .mod_from form .input_grp > div{
+    width: 100%
+  }
+}

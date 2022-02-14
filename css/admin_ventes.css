@@ -1,0 +1,55 @@
+#graph .box {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 0 20px;
+    grid-column-gap: 20px
+
+}
+#graph .box .name{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+#graph .box .cate{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+#commande{
+    margin: 30px 20px;
+    padding:20px;
+    width: 100%;
+    margin: 50px 10px
+}
+#commande .box_ {
+  padding: 30px 20px 50px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+}
+#commande .box_ .bare {
+    background-color: #EEEEEE;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    padding: 10px 0px;
+    margin: 30px 0px;
+}
+
+#commande .box_ .bare p {
+    color: #5333ED;
+    justify-self: center;
+}
+#commande .oneCom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0px;
+    min-height: 70px;
+ }
+ #commande .oneCom p {
+    justify-self: center;
+    text-align: center;
+ }
