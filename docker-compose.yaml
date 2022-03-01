@@ -1,0 +1,30 @@
+version: '3'
+services:
+  php-app:
+    image: php-myapp
+    ports:
+      - 8000:80
+    volumes:
+      - ./:/var/www/html/
+    depends_on:
+      - db
+  db:
+    container_name: db
+    image: mysql
+    restart: always
+    environment:
+        MYSQL_ROOT_PASSWORD: passroot
+        MYSQL_DATABASE: techshopbd
+    ports:
+        - "9906:3306"
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+        - '8080:80'
+    restart: always
+    environment:
+        PMA_HOST: db
+    depends_on:
+      - db
+
+
